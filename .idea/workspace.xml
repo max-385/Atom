@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f9a7e14-b21f-4c7a-aba2-99a3dbb1fee6" name="Default Changelist" comment="" />
+    <list default="true" id="1f9a7e14-b21f-4c7a-aba2-99a3dbb1fee6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AtomCMS/Widgets/Debug.php" beforeDir="false" afterPath="$PROJECT_DIR$/AtomCMS/Widgets/Debug.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +73,7 @@
       <workItem from="1583875170360" duration="4790000" />
       <workItem from="1583951668285" duration="750000" />
       <workItem from="1583961706292" duration="1000000" />
-      <workItem from="1583963414341" duration="2361000" />
+      <workItem from="1583963414341" duration="3830000" />
     </task>
     <task id="LOCAL-00001" summary="Intial project version">
       <created>1583966580692</created>
