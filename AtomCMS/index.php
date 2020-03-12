@@ -3,7 +3,7 @@
 ?>
 	
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title><?php echo $page['title'].' | '.$site_title; ?></title>
 	
