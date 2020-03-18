@@ -28,7 +28,7 @@ crossorigin="anonymous"></script>
 		
 		$("#console-debug").hide();
 		$("#btn-debug").click(function(){
-			$("#console-debug").toggle();
+			$("#console-debug").toggle("slow");
 			
 		});
 	});
