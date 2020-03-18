@@ -21,7 +21,7 @@
 	
 	
 <body class="d-flex flex-column">
-	<?php include (D_TEMPLATE.'/navigation.php'); //Main navigation ?>
+	<?php include (D_TEMPLATE.'/'.'navigation.php'); //Main navigation ?>
 
 	<div class="container">
 		
@@ -32,7 +32,7 @@
 	</div> <!-- End of Text area-->
 	
 	
-	<?php include (D_TEMPLATE.'/footer.php'); ?>
+	<?php include (D_TEMPLATE.'/'.'footer.php'); ?>
 	
 	<?php if ($debug == 1) { include ('Widgets/Debug.php'); } //If debug status is 1, then "debug" button is visible and data available ?> 
 	
