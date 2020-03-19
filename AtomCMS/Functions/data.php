@@ -12,7 +12,6 @@ function data_setting_value($id, $dbc){
 }
 
 
-
 function data_page($id, $dbc)
 {
 	

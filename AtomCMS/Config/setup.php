@@ -6,8 +6,12 @@ define('D_TEMPLATE', 'template');
 
 
 //Functions
-include('functions/data.php');
-include('functions/template.php');
+function rootDir($Path){
+    return __DIR__.'/../'.$Path;
+    }
+
+include(rootDir('functions/data.php'));
+include(rootDir('functions/template.php'));
 
 //Database connection
 $dbc = mysqli_connect('localhost', 'maximsa', '12password', 'atomcms') OR die('Could not connect because: '.mysqli_connect_error());
