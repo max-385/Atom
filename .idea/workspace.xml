@@ -4,11 +4,10 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f9a7e14-b21f-4c7a-aba2-99a3dbb1fee6" name="Default Changelist" comment="toggle slow">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+    <list default="true" id="1f9a7e14-b21f-4c7a-aba2-99a3dbb1fee6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AtomCMS/Config/css.php" beforeDir="false" afterPath="$PROJECT_DIR$/AtomCMS/Config/css.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AtomCMS/Config/js.php" beforeDir="false" afterPath="$PROJECT_DIR$/AtomCMS/Config/js.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,8 +32,21 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="atomcms@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="atomcms@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="atomcms: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+      </path>
+    </expand>
     <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="AtomCMS" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -115,7 +127,8 @@
       <workItem from="1584203434930" duration="2910000" />
       <workItem from="1584387465398" duration="8642000" />
       <workItem from="1584557586057" duration="791000" />
-      <workItem from="1584558420312" duration="5932000" />
+      <workItem from="1584558420312" duration="6362000" />
+      <workItem from="1584641805275" duration="1295000" />
     </task>
     <task id="LOCAL-00001" summary="Intial project version">
       <created>1583966580692</created>
@@ -138,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584572856936</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="toggle slow">
+      <created>1584573304592</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584573304592</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
