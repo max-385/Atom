@@ -1,18 +1,12 @@
 <?php
 //Setup file
 
-//Constants
-define('D_TEMPLATE', 'template');
-define('ROOT_DIR', '__DIR__/../');
-
+//Database connection
+include_once('Config/connection.php');
 
 //Functions
 include_once(ROOT_DIR.'functions/data.php');
 include_once(ROOT_DIR.'functions/template.php');
-
-//Database connection
-$dbc = mysqli_connect('localhost', 'maximsa', '12password', 'atomcms') OR die('Could not connect because: '.mysqli_connect_error());
-mysqli_set_charset($dbc,'utf8');
 
 
 // Site Setup

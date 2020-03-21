@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fe8a087-8100-401f-b343-4afa116c9120" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/Config/css.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/Config/js.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/Config/setup.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/Functions/data.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/Functions/template.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/Images/comp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/Template/Footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/Template/Navigation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/Widgets/Debug.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/Config/connection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AtomCMS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AtomCMS.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/Config/css.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/Config/css.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/Config/setup.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/Config/setup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/Template/Footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/Template/Footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/Template/Navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/Template/Navigation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +129,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584797668363</updated>
-      <workItem from="1584797676808" duration="9125000" />
+      <workItem from="1584797676808" duration="17054000" />
     </task>
     <servers />
   </component>

@@ -23,14 +23,7 @@ include_once('config/setup.php');
 <body class="d-flex flex-column">
 <?php include_once (D_TEMPLATE.'/navigation.php'); //Main navigation ?>
 
-<div class="container">
-
-    <h1><?php echo $page['header']?></h1>
-    <?php echo $page['body_formatted']?>
-
-
-</div> <!-- End of Text area-->
-
+<H1>Admin Dashboard</H1>
 
 <?php include_once (D_TEMPLATE.'/footer.php'); // footer ?>
 
