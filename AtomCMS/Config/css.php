@@ -41,4 +41,9 @@ integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28an
 		height: 500px;
 		white-space: pre-wrap;       /* css-3 */
 	}
+
+    #console-debug pre H1 {
+        text-align:center;
+        background-color: cadetblue;
+    }
 </style>
