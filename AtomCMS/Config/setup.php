@@ -3,15 +3,12 @@
 
 //Constants
 define('D_TEMPLATE', 'template');
+define('ROOT_DIR', '__DIR__/../');
 
 
 //Functions
-function rootDir($Path){
-    return __DIR__.'/../'.$Path;
-    }
-
-include(rootDir('functions/data.php'));
-include(rootDir('functions/template.php'));
+include_once(ROOT_DIR.'functions/data.php');
+include_once(ROOT_DIR.'functions/template.php');
 
 //Database connection
 $dbc = mysqli_connect('localhost', 'maximsa', '12password', 'atomcms') OR die('Could not connect because: '.mysqli_connect_error());

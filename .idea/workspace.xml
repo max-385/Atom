@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f9a7e14-b21f-4c7a-aba2-99a3dbb1fee6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AtomCMS/AtomCMS.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AtomCMS/Config/setup.php" beforeDir="false" afterPath="$PROJECT_DIR$/AtomCMS/Config/setup.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AtomCMS/Functions/data.php" beforeDir="false" afterPath="$PROJECT_DIR$/AtomCMS/Functions/data.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AtomCMS/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/AtomCMS/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,13 +50,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/AtomCMS/Functions" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/AtomCMS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
@@ -102,6 +105,14 @@
     </option>
     <option name="showServicesTree" value="false" />
   </component>
+  <component name="StructuralSearchPlugin">
+    <searchConfiguration name="user defined" created="1584797121703" text="include" recursive="true" caseInsensitive="true" type="PHP" scope_type="PROJECT" scope_descriptor="" history="1">
+      <constraint name="__context__" within="" contains="" />
+    </searchConfiguration>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",VISIBILITY_SORTER" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -124,7 +135,9 @@
       <workItem from="1584558420312" duration="6362000" />
       <workItem from="1584641805275" duration="2574000" />
       <workItem from="1584644422043" duration="8094000" />
-      <workItem from="1584652568911" duration="2350000" />
+      <workItem from="1584652568911" duration="4133000" />
+      <workItem from="1584795150180" duration="2369000" />
+      <workItem from="1584797661868" duration="105000" />
     </task>
     <task id="LOCAL-00001" summary="Intial project version">
       <created>1583966580692</created>
@@ -161,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584643371220</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Root directory function">
+      <created>1584655019885</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1584655019885</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +216,7 @@
     <MESSAGE value="Path with constant without error notification" />
     <MESSAGE value="toggle slow" />
     <MESSAGE value="bootstrap version update" />
-    <option name="LAST_COMMIT_MESSAGE" value="bootstrap version update" />
+    <MESSAGE value="Root directory function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Root directory function" />
   </component>
 </project>

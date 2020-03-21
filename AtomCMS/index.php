@@ -13,15 +13,15 @@
 		
 
 		<?php 
-			include_once(rootDir('config/js.php'));
-			include_once(rootDir('config/css.php'));
+			include_once(ROOT_DIR.'config/js.php');
+			include_once(ROOT_DIR.'config/css.php');
 		?>
 			
 </head>
 	
 	
 <body class="d-flex flex-column">
-	<?php include_once (D_TEMPLATE.'/'.'navigation.php'); //Main navigation ?>
+	<?php include_once (D_TEMPLATE.'/navigation.php'); //Main navigation ?>
 
 	<div class="container">
 		
@@ -32,9 +32,9 @@
 	</div> <!-- End of Text area-->
 	
 	
-	<?php include_once (D_TEMPLATE.'/'.'footer.php'); // footer ?>
+	<?php include_once (D_TEMPLATE.'/footer.php'); // footer ?>
 	
-	<?php if ($debug == 1) { include ('Widgets/Debug.php'); } //If debug status is 1, then "debug" button is visible and data available ?> 
+	<?php if ($debug == 1) { include_once (ROOT_DIR.'Widgets/Debug.php'); } //If debug status is 1, then "debug" button is visible and data available ?>
 	
 	
 </body>
