@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fe8a087-8100-401f-b343-4afa116c9120" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/Config/css.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/Config/js.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/Config/setup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/Functions/data.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/Functions/template.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/Images/comp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/Template/Footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/Template/Navigation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/Widgets/Debug.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/css.php" beforeDir="false" afterPath="$PROJECT_DIR$/Config/css.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Widgets/Debug.php" beforeDir="false" afterPath="$PROJECT_DIR$/Widgets/Debug.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AtomCMS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AtomCMS.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +86,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/admin" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -87,6 +94,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\series\dynamic\AtomCMS\admin" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -100,6 +112,17 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="admin" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$/admin" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.admin" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -110,7 +133,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584797668363</updated>
-      <workItem from="1584797676808" duration="6869000" />
+      <workItem from="1584797676808" duration="9125000" />
     </task>
     <servers />
   </component>
