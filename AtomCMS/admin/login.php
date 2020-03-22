@@ -1,12 +1,28 @@
 <?php
+
+//Start Session
+session_start();
+
 //Database connection
-include_once("config/connection.php");
+include_once('Config/connection.php');
+
+if($_POST){
+
+    $q= "SELECT * FROM users WHERE email='$_POST[emailnow]' AND password=SHA1('$_POST[passnow]')";
+    $r= mysqli_query($dbc, $q);
+
+    if(mysqli_num_rows($r)==1){
+        $_SESSION['username'] = $_POST['emailnow'];
+        header('location:index.php');
+    }
+}
+
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title><?php echo $page['title'].' | '.$site_title; ?></title>
+    <title>Admin login</title>
 
     <!-- Required meta tags -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
@@ -30,17 +46,19 @@ include_once("config/connection.php");
                 <div class="col-md-4 offset-md-4">
                     <div class="card">
                         <H4 class="card-header text-center">Login</H4>
+
                         <div class="card-body">
-                        <form>
+                        <form action="login.php" method="post">
+
                             <div class="form-group">
-                                <label for="exampleInputEmail1">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your e-mail">
+                                <label for="email">Email address</label>
+                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" name= "emailnow" placeholder="Your e-mail">
                                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                             </div>
 
                             <div class="form-group">
-                                <label for="exampleInputPassword1">Password</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                <label for="pass">Password</label>
+                                <input type="password" class="form-control" id="pass" name="passnow" placeholder="Password">
                             </div>
 
                             <!-- <div class="form-group form-check">

@@ -1,4 +1,14 @@
 <?php
+
+//session start:
+session_start();
+if(!isset($_SESSION['username'])){
+    header('Location:login.php');
+}
+
+?>
+
+<?php
 include_once('config/setup.php');
 ?>
 
@@ -24,6 +34,32 @@ include_once('config/setup.php');
 <?php include_once (D_TEMPLATE.'/navigation.php'); //Main navigation ?>
 
 <H1>Admin Dashboard</H1>
+
+
+<div class="row">
+
+        <div class="col-4">
+            <div class="list-group">
+
+                <?php
+                $q = "SELECT * FROM pages ORDER BY title";
+                $r = mysqli_query($dbc, $q);
+
+                while ($title_list = mysqli_fetch_assoc($r)) { ?>
+
+                <a href="#" class="list-group-item list-group-item-action">
+                    <h5 class="mb-1"><?php echo $title_list['title'];?></h5>
+                    <p class="mb-1"><?php echo mb_strimwidth(strip_tags($title_list['body']), 0, 150, "...");?></p>
+                </a>
+
+                <?php } ?>
+            </div>
+        </div>
+
+        <div class="col-8">Page form</div>
+
+</div>
+
 
 <?php include_once (D_TEMPLATE.'/footer.php'); // footer ?>
 

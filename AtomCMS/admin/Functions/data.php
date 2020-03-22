@@ -11,6 +11,17 @@ function data_setting_value($id, $dbc){
 
 }
 
+function data_user($id, $dbc)
+{
+    $q = "SELECT * FROM users WHERE email= '$id'";
+    $r = mysqli_query($dbc, $q);
+    $data = mysqli_fetch_assoc($r);
+
+    $data['fullname'] = $data['first_name'].' '.$data['last_name'];
+
+    return $data;
+
+}
 
 function data_page($id, $dbc)
 {

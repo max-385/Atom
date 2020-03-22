@@ -25,4 +25,7 @@ if(isset($_GET['page'])){ // If value is given in the URL
 //Page Setup
 $page = data_page($pageid, $dbc);
 
+// Who is logged in
+$user = data_user($_SESSION['username'], $dbc);
+
 ?>
