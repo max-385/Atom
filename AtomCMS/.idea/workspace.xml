@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fe8a087-8100-401f-b343-4afa116c9120" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/AtomCMS.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/logout.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Config/css.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/Config/css.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Config/setup.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/Config/setup.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Functions/data.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/Functions/data.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Template/Navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/Template/Navigation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/login.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -157,7 +146,8 @@
       <option name="presentableId" value="Default" />
       <updated>1584797668363</updated>
       <workItem from="1584797676808" duration="29165000" />
-      <workItem from="1584875021238" duration="11289000" />
+      <workItem from="1584875021238" duration="11478000" />
+      <workItem from="1584913206479" duration="3106000" />
     </task>
     <servers />
   </component>

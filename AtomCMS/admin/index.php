@@ -48,15 +48,41 @@ include_once('config/setup.php');
                 while ($title_list = mysqli_fetch_assoc($r)) { ?>
 
                 <a href="#" class="list-group-item list-group-item-action">
-                    <h5 class="mb-1"><?php echo $title_list['title'];?></h5>
-                    <p class="mb-1"><?php echo mb_strimwidth(strip_tags($title_list['body']), 0, 150, "...");?></p>
+                    <h5 class="mb-1"><?php echo $title_list['title'];?></h5> <!-- All page titles -->
+                    <p class="mb-1"><?php echo mb_strimwidth(strip_tags($title_list['body']), 0, 150, "...");?></p> <!-- Titles body text preview without tags -->
                 </a>
 
                 <?php } ?>
-            </div>
-        </div>
+            </div> <!-- list group end -->
+        </div> <!-- first column end -->
 
-        <div class="col-8">Page form</div>
+        <div class="col-8">
+            <form action="index.php" method="post">
+                <div class="form-group">
+                    <label for="title">Title:</label>
+                    <input class="form-control" type="text" id="title" name= "title" placeholder="Page title ">
+                </div>
+
+                <div class="form-group">
+                    <label for="label">Label:</label>
+                    <input class="form-control" type="text" id="label" name= "label" placeholder="Page label ">
+                </div>
+
+                <div class="form-group">
+                    <label for="header">Header:</label>
+                    <input class="form-control" type="text" id="header" name= "header" placeholder="Page header ">
+                </div>
+
+                <div class="form-group">
+                    <label for="body">Body:</label>
+                    <textarea class="form-control" id="body" rows="3" placeholder="Page body"></textarea>
+                </div>
+
+
+                <button type="submit" class="btn btn-secondary">Submit</button>
+
+            </form>
+        </div> <!-- second column end -->
 
 </div>
 
