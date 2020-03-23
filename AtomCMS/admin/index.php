@@ -42,6 +42,17 @@ include_once('config/setup.php');
             <div class="list-group">
 
                 <?php
+                if (isset($_POST['submitted']) == 1) {
+                    $q = "INSERT INTO pages (title, label, header, body) VALUES ('$_POST[addtitle]', '$_POST[addlabel]', '$_POST[addheader]', '$_POST[addbody]')";
+                    $r = mysqli_query($dbc, $q);
+                    if($r) {echo 'New page was added!';}
+                        else {
+                            echo '<br> Insert page error: '.mysqli_error($dbc);
+                            echo '<br>'.$q;
+                            }
+                }?>
+
+                <?php
                 $q = "SELECT * FROM pages ORDER BY title";
                 $r = mysqli_query($dbc, $q);
 
@@ -53,34 +64,37 @@ include_once('config/setup.php');
                 </a>
 
                 <?php } ?>
+
             </div> <!-- list group end -->
         </div> <!-- first column end -->
 
-        <div class="col-8">
+        <div class="col-8"> <!-- second column beginning -->
+
             <form action="index.php" method="post">
                 <div class="form-group">
                     <label for="title">Title:</label>
-                    <input class="form-control" type="text" id="title" name= "title" placeholder="Page title ">
+                    <input class="form-control" type="text" id="title" name= "addtitle" placeholder="Page title ">
                 </div>
 
                 <div class="form-group">
                     <label for="label">Label:</label>
-                    <input class="form-control" type="text" id="label" name= "label" placeholder="Page label ">
+                    <input class="form-control" type="text" id="label" name= "addlabel" placeholder="Page label ">
                 </div>
 
                 <div class="form-group">
                     <label for="header">Header:</label>
-                    <input class="form-control" type="text" id="header" name= "header" placeholder="Page header ">
+                    <input class="form-control" type="text" id="header" name= "addheader" placeholder="Page header ">
                 </div>
 
                 <div class="form-group">
                     <label for="body">Body:</label>
-                    <textarea class="form-control" id="body" rows="3" placeholder="Page body"></textarea>
+                    <textarea class="form-control" id="body" name="addbody" rows="3" placeholder="Page body"></textarea>
                 </div>
 
 
                 <button type="submit" class="btn btn-secondary">Submit</button>
 
+                <input type="hidden" value="1" name="submitted">
             </form>
         </div> <!-- second column end -->
 
