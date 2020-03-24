@@ -12,6 +12,15 @@
 
 <H1>HTTP cookies:</H1>
         <?php print_r($_COOKIE);?> <!-- Cookies array -->
-	</pre>
+
+<H1>Post:</H1>
+        <?php print_r($_POST);?> <!-- Post array -->
+
+<H1>Session:</H1>
+        <?php print_r($_SESSION);?> <!-- Session array -->
+
+<H1>Logged user:</H1>
+        <?php unset($user['password']);
+        print_r($user);?> <!-- User logged in -->
 	
 </div> 

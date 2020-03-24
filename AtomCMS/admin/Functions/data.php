@@ -13,7 +13,14 @@ function data_setting_value($id, $dbc){
 
 function data_user($id, $dbc)
 {
-    $q = "SELECT * FROM users WHERE email= '$id'";
+        if(is_numeric($id)) {
+            $case = "id = '$id'";
+        }
+        else {
+            $case = "email = '$id'";
+        }
+
+    $q = "SELECT * FROM users WHERE $case";
     $r = mysqli_query($dbc, $q);
     $data = mysqli_fetch_assoc($r);
 

@@ -43,12 +43,16 @@ include_once('config/setup.php');
 
                 <?php
                 if (isset($_POST['submitted']) == 1) {
-                    $q = "INSERT INTO pages (title, label, header, body) VALUES ('$_POST[addtitle]', '$_POST[addlabel]', '$_POST[addheader]', '$_POST[addbody]')";
+                    $addtitle = mysqli_real_escape_string($dbc,$_POST['addtitle']);
+                    $addlabel = mysqli_real_escape_string($dbc,$_POST['addlabel']);
+                    $addheader = mysqli_real_escape_string($dbc,$_POST['addheader']);
+                    $addbody = mysqli_real_escape_string($dbc,$_POST['addbody']);
+                    $q = "INSERT INTO pages (user_id, title, label, header, body) VALUES ('$user[id]','$addtitle', '$addlabel', '$addheader', '$addbody')";
                     $r = mysqli_query($dbc, $q);
-                    if($r) {echo 'New page was added!';}
+                    if($r) {$msg = 'New page was added!<br> <br>';}
                         else {
-                            echo '<br> Insert page error: '.mysqli_error($dbc);
-                            echo '<br>'.$q;
+                            $msg = 'Insert page error: '.mysqli_error($dbc);
+                            $msg .= '<br>'.$q;
                             }
                 }?>
 
@@ -69,26 +73,26 @@ include_once('config/setup.php');
         </div> <!-- first column end -->
 
         <div class="col-8"> <!-- second column beginning -->
-
+            <?php if(isset($msg)){echo '<b>'.$msg.'</b>';}?>
             <form action="index.php" method="post">
                 <div class="form-group">
                     <label for="title">Title:</label>
-                    <input class="form-control" type="text" id="title" name= "addtitle" placeholder="Page title ">
+                    <input class="form-control" type="text" id="title" name= "addtitle" placeholder="Page title " required>
                 </div>
 
                 <div class="form-group">
                     <label for="label">Label:</label>
-                    <input class="form-control" type="text" id="label" name= "addlabel" placeholder="Page label ">
+                    <input class="form-control" type="text" id="label" name= "addlabel" placeholder="Page label " required>
                 </div>
 
                 <div class="form-group">
                     <label for="header">Header:</label>
-                    <input class="form-control" type="text" id="header" name= "addheader" placeholder="Page header ">
+                    <input class="form-control" type="text" id="header" name= "addheader" placeholder="Page header " required>
                 </div>
 
                 <div class="form-group">
                     <label for="body">Body:</label>
-                    <textarea class="form-control" id="body" name="addbody" rows="3" placeholder="Page body"></textarea>
+                    <textarea class="form-control" id="body" name="addbody" rows="3" placeholder="Page body" required></textarea>
                 </div>
 
 

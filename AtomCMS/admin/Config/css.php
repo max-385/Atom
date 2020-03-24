@@ -31,14 +31,16 @@ integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28an
 	#console-debug {
 		position: absolute;
 		top: 60px;
-		left: 10px;
 		background: #dddddd;
-		width: 30%;
+		width: 35%;
 		height: 500px;
 		box-shadow: 2px 2px 5px #CCCCCC;
 	}
 	
 	#console-debug pre {
+        position: absolute;
+        left:10px;
+        right:10px;
 		height: 500px;
 		white-space: pre-wrap;       /* css-3 */
 	}

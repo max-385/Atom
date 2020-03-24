@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1fe8a087-8100-401f-b343-4afa116c9120" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/Config/css.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/Config/css.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/Functions/data.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/Functions/data.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/Widgets/Debug.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/Widgets/Debug.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -148,8 +151,17 @@
       <workItem from="1584797676808" duration="29165000" />
       <workItem from="1584875021238" duration="11478000" />
       <workItem from="1584913206479" duration="3589000" />
-      <workItem from="1584994109631" duration="7917000" />
+      <workItem from="1584994109631" duration="8252000" />
+      <workItem from="1585071938554" duration="13733000" />
     </task>
+    <task id="LOCAL-00001" summary="INSERT new page from admin dashboard">
+      <created>1585003374163</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585003374163</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,5 +179,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="INSERT new page from admin dashboard" />
+    <option name="LAST_COMMIT_MESSAGE" value="INSERT new page from admin dashboard" />
   </component>
 </project>
