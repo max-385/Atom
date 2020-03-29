@@ -11,8 +11,11 @@ include_once(ROOT_DIR.'functions/data.php');
 include_once(ROOT_DIR.'functions/template.php');
 
 //Database connection
-$dbc = mysqli_connect('localhost', 'maximsa', '12password', 'atomcms') OR die('Could not connect because: '.mysqli_connect_error());
-mysqli_set_charset($dbc,'utf8');
+$dbc = new mysqli('localhost','maximsa','12password', 'atomcms');
+$dbc->set_charset('utf8');
+if($dbc->connect_error){
+    die('Could not connect because: '. $dbc->connect_error);
+}
 
 
 // Site Setup

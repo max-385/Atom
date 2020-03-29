@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fe8a087-8100-401f-b343-4afa116c9120" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Config/css.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/Config/css.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Functions/data.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/Functions/data.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Widgets/Debug.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/Widgets/Debug.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/setup.php" beforeDir="false" afterPath="$PROJECT_DIR$/Config/setup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/Config/connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/Config/connection.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +62,16 @@
     </expand>
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="AtomCMS" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -83,19 +92,27 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="OPEN_URL_DIALOG">
+      <recent name="http://max.nfshost.com" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\series\dynamic\AtomCMS\admin" />
     </key>
@@ -152,7 +169,10 @@
       <workItem from="1584875021238" duration="11478000" />
       <workItem from="1584913206479" duration="3589000" />
       <workItem from="1584994109631" duration="8252000" />
-      <workItem from="1585071938554" duration="13733000" />
+      <workItem from="1585071938554" duration="14799000" />
+      <workItem from="1585160804652" duration="894000" />
+      <workItem from="1585162259703" duration="11065000" />
+      <workItem from="1585482102639" duration="7819000" />
     </task>
     <task id="LOCAL-00001" summary="INSERT new page from admin dashboard">
       <created>1585003374163</created>
