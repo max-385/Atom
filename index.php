@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title><?php echo $page['title'].' | '.$site_title; ?></title>
+    <title><?php echo $page->getTitle() . ' | ' . $site_title; ?></title>
 	
 	    <!-- Required meta tags -->
 	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
@@ -24,9 +24,9 @@
 	<?php include_once (D_TEMPLATE.'/navigation.php'); //Main navigation ?>
 
 	<div class="container">
-		
-		<h1><?php echo $page['header']?></h1>
-		<?php echo $page['body_formatted']?>
+
+        <h1><?php echo $page->getHeader() ?></h1>
+        <?php echo $page->getBodyFormatted() ?>
 		
 		
 	</div> <!-- End of Text area-->
