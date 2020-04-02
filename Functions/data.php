@@ -1,4 +1,12 @@
-<?php 
+<?php
+
+function autoload($className) {
+    $className = str_replace('_', '/', $className);
+
+    require_once("Classes\\$className.php");
+}
+spl_autoload_register('autoload');
+
 
 function data_setting_value($id, $dbc){
 	
